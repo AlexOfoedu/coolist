@@ -1,0 +1,79 @@
+HTML, BODY {
+  margin: 0px; }
+
+BODY {
+  background-color: #000000;
+  color: #22FF22; }
+
+H1 {
+  color: #05FF05; }
+
+H2 {
+  color: #32FF00; }
+
+.list_cont {
+  width: 80%;
+  height: 40%; }
+
+.list_cont ul {
+  margin-left: -25px;
+  list-style: none;
+  list-style-type: none;
+  color: #155115; }
+  .list_cont ul .spacer {
+    margin-top: 5px; }
+  .list_cont ul li {
+    color: #FFFFFF;
+    margin-left: 10px;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px; }
+  .list_cont ul li:hover {
+    color: #000000;
+    border-color: #FFFFFF; }
+  .list_cont ul li:active {
+    color: #22FF22; }
+
+.btn_cont ul {
+  position: relative;
+  color: #000000;
+  list-style: none;
+  list-style-type: none; }
+  .btn_cont ul li {
+    position: relative;
+    color: #FFFFFF; }
+
+.body_cont {
+  width: 100%;
+  height: 100%; }
+
+.body_center {
+  background-color: #000000;
+  width: 60%;
+  height: 60%;
+  float: left; }
+
+.body_left {
+  background-color: #33cc33;
+  width: 15%;
+  height: 80%;
+  float: left; }
+
+.body_top {
+  background-color: #29a329;
+  width: 100%;
+  height: 20%;
+  float: right; }
+
+.body_right {
+  background-color: #33cc33;
+  width: 15%;
+  height: 80%;
+  float: right; }
+
+.body_bottom {
+  background-color: #29a329;
+  width: 100%;
+  height: 20%;
+  float: right; }
+
+/*# sourceMappingURL=main.css.map */
