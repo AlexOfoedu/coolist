@@ -25,6 +25,7 @@ BODY
 {
 	background-color: #000000;
 	color: $default_green_text;
+	font-family: Helvetica, Arial, sans-serif;
 }
 
 H1
@@ -77,6 +78,34 @@ H2
 	}
 
 	li:active
+	{
+		color: #22FF22;
+	}
+
+}
+
+.btn_cont
+{
+
+	margin-left: 40px;
+	word-spacing: 15px;
+
+	.btns
+	{
+	
+		color: #FFFFFF;
+		margin-left: 10px;
+		border-style: none;
+
+	}
+
+	.btns:hover
+	{
+		color: #000000;
+		border-color: #FFFFFF;
+	}
+
+	.btns:active
 	{
 		color: #22FF22;
 	}

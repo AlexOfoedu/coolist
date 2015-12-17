@@ -3,7 +3,8 @@ HTML, BODY {
 
 BODY {
   background-color: #000000;
-  color: #22FF22; }
+  color: #22FF22;
+  font-family: Helvetica, Arial, sans-serif; }
 
 H1 {
   color: #05FF05; }
@@ -31,6 +32,19 @@ H2 {
     color: #000000;
     border-color: #FFFFFF; }
   .list_cont ul li:active {
+    color: #22FF22; }
+
+.btn_cont {
+  margin-left: 40px;
+  word-spacing: 15px; }
+  .btn_cont .btns {
+    color: #FFFFFF;
+    margin-left: 10px;
+    border-style: none; }
+  .btn_cont .btns:hover {
+    color: #000000;
+    border-color: #FFFFFF; }
+  .btn_cont .btns:active {
     color: #22FF22; }
 
 .btn_cont ul {
