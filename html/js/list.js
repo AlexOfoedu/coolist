@@ -1,14 +1,11 @@
+'use strict;'
+
 function bigBomba()
 {
 	
 	xY();
 	changeColor();
 
-};
-
-function xY()
-{
-	
 }
 
 function changeColor()
@@ -19,15 +16,21 @@ function changeColor()
 	var i;
 
 	for (i = 0; i < list.length; i++)
-	{
-		list[i].addEventListener("click", list[i].wZ(this));
+	{	
+
+		document.getElementById("
+
+		/*
+
+		list[i].addEventListener("click", function(){
+
+			if (this.style.color == "#FFFFFF")
+			{
+			this.style.color = "#000000";
+			}
+		*/
 	}
 
-}
-
-function wZ(x)
-{
-	x.style.color = "#000000";
 }
 
 /*

@@ -1,93 +1,62 @@
-HTML, BODY {
-  margin: 0px; }
+/*
+Error: Invalid CSS after "		color: ": expected expression (e.g. 1px, bold), was ";"
+        on line 82 of main.scss
 
-BODY {
-  background-color: #000000;
-  color: #22FF22;
-  font-family: Helvetica, Arial, sans-serif; }
+77: 		border-color: #FFFFFF;
+78: 	}
+79: 
+80: 	li:active
+81: 	{
+82: 		color: ;
+83: 	}
+84: 
+85: }
+86: 
+87: .btn_cont
 
-H1 {
-  color: #05FF05; }
-
-H2 {
-  color: #32FF00; }
-
-.list_cont {
-  width: 80%;
-  height: 40%; }
-
-.list_cont ul {
-  margin-left: -25px;
-  list-style: none;
-  list-style-type: none;
-  color: #155115; }
-  .list_cont ul .spacer {
-    margin-top: 5px; }
-  .list_cont ul li {
-    color: #FFFFFF;
-    margin-left: 10px;
-    border-style: solid;
-    border-width: 0px 0px 2px 0px; }
-  .list_cont ul li:hover {
-    color: #000000;
-    border-color: #FFFFFF; }
-  .list_cont ul li:active {
-    color: #22FF22; }
-
-.btn_cont {
-  margin-left: 40px;
-  word-spacing: 15px; }
-  .btn_cont .btns {
-    color: #FFFFFF;
-    margin-left: 10px;
-    border-style: none; }
-  .btn_cont .btns:hover {
-    color: #000000;
-    border-color: #FFFFFF; }
-  .btn_cont .btns:active {
-    color: #22FF22; }
-
-.btn_cont ul {
-  position: relative;
-  color: #000000;
-  list-style: none;
-  list-style-type: none; }
-  .btn_cont ul li {
-    position: relative;
-    color: #FFFFFF; }
-
-.body_cont {
-  width: 100%;
-  height: 100%; }
-
-.body_center {
-  background-color: #000000;
-  width: 60%;
-  height: 60%;
-  float: left; }
-
-.body_left {
-  background-color: #33cc33;
-  width: 15%;
-  height: 80%;
-  float: left; }
-
-.body_top {
-  background-color: #29a329;
-  width: 100%;
-  height: 20%;
-  float: right; }
-
-.body_right {
-  background-color: #33cc33;
-  width: 15%;
-  height: 80%;
-  float: right; }
-
-.body_bottom {
-  background-color: #29a329;
-  width: 100%;
-  height: 20%;
-  float: right; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+main.scss:82
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/script/lexer.rb:228:in `expected!'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/script/parser.rb:673:in `assert_expr'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/script/parser.rb:63:in `parse'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:1041:in `sass_script'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:894:in `value!'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:767:in `block in try_declaration'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:1155:in `call'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:1155:in `rethrow'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:780:in `try_declaration'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:710:in `declaration_or_ruleset'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:664:in `block_contents'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:656:in `block'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:725:in `declaration_or_ruleset'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:675:in `block_child'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:656:in `block'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:649:in `ruleset'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:674:in `block_child'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:667:in `block_contents'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:126:in `stylesheet'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/scss/parser.rb:42:in `parse'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/engine.rb:403:in `_to_tree'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `call'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `call'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/Users/alexanderofoedu/.rvm/gems/ruby-2.0.0-p647/gems/sass-3.4.20/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"		color: \": expected expression (e.g. 1px, bold), was \";\"\A         on line 82 of main.scss\A \A 77: 		border-color: #FFFFFF;\A 78: 	}\A 79: \A 80: 	li:active\A 81: 	{\A 82: 		color: ;\A 83: 	}\A 84: \A 85: }\A 86: \A 87: .btn_cont"; }
